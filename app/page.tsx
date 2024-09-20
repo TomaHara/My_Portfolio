@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Fragment>
       <main
-        className="w-full h-screen overflow-y-auto relative flex flex-col items-center justify-start bg-fixed"
+        className="w-full h-screen mobile:h-svh overflow-y-auto relative flex flex-col items-center justify-start bg-fixed"
         style={{ backgroundImage: "url(/white_back.jpg)" }}
       >
         <WelcomePage />
