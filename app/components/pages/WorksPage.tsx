@@ -48,7 +48,7 @@ const WorksPage = () => {
             isModalOpen ? "" : "hidden"
           }`}
         >
-          <main className="relative mobile:mt-32 w-full h-full flex flex-col justify-start items-center z-[70]">
+          <main className="relative mobile:mt-32 w-full h-full flex flex-col justify-start items-center z-[70] mb-28">
             <button
               type="button"
               className=" fixed top-0 right-0 m-10  z-[80] p-1 rounded-md bg-gray-200 transition-colors duration-500"

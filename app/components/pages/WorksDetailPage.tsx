@@ -53,7 +53,7 @@ const WorksDetailPage = ({ id }: { id: number }) => {
             </h3>
             <p className="font-noto_sans_jp ">{explanation}</p>
           </div>
-          <div className="order-4 flex flex-col desktop:text-lg mobile:text-base gap-2">
+          <div className="order-4 flex flex-col desktop:text-lg mobile:text-base gap-2 mb-8">
             <h3 className="font-oswald [text-decoration:underline] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
               Tools
             </h3>
