@@ -48,10 +48,10 @@ const WorksPage = () => {
             isModalOpen ? "" : "hidden"
           }`}
         >
-          <main className="relative mobile:mt-56 w-full flex flex-col justify-start items-center z-[70]">
+          <main className="relative mobile:mt-32 w-full h-full flex flex-col justify-start items-center z-[70]">
             <button
               type="button"
-              className=" self-end mr-20 desktop:mr-36 desktop:mt-28 z-[80] p-1 rounded-md bg-gray-200 transition-colors duration-500"
+              className=" fixed top-0 right-0 m-10  z-[80] p-1 rounded-md bg-gray-200 transition-colors duration-500"
               onClick={() => closeModal()}
             >
               <icons.close className="size-12 hover:text-red-500" />
