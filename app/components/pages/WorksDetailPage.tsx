@@ -36,10 +36,10 @@ const WorksDetailPage = ({ id }: { id: number }) => {
     });
   };
   return (
-    <section className="w-full flex-1 shrink-0 relative flex flex-col  items-center justify-center">
-      <main className="w-full flex-1 flex flex-col desktop:flex-row  items-center mobile:items-start mobile:justify-start justify-center p-14 mobile:py-3 box-border text-left text-black gap-6 desktop:gap-8 ">
-        <div className="mobile:contents w-[800px] h-auto flex flex-col  gap-4 text-left text-black ">
-          <div className="order-1 flex flex-col flex-auto gap-2">
+    <section className="w-full desktop:h-screen desktop:shrink-0 mobile:h-full mobile:shrink relative flex flex-col  items-center justify-center mobile:justify-start">
+      <main className="w-full h-auto flex flex-col desktop:flex-row  items-center mobile:items-start mobile:justify-start justify-center p-14 mobile:py-3 box-border text-left text-black gap-6 desktop:gap-8 ">
+        <div className="mobile:contents w-[800px] desktop:min-w-[300px] h-auto flex flex-col  gap-4 text-left text-black ">
+          <div className="order-1 flex flex-col desktop:flex-auto gap-2">
             <h3 className="desktop:text-lg mobile:text-base font-oswald [text-decoration:underline] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
               Project
             </h3>
