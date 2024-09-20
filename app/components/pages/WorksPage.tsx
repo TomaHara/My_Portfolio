@@ -44,18 +44,20 @@ const WorksPage = () => {
           </div>
         </div>
         <div
-          className={`fixed top-0 left-0 w-screen h-screen flex justify-center items-center z-20 ${
+          className={`fixed top-0 left-0 w-full h-screen overflow-y-auto flex justify-center items-center z-50 bg-white ${
             isModalOpen ? "" : "hidden"
           }`}
         >
-          <button
-            type="button"
-            className="fixed desktop:top-36 top-20 mobile:right-12 desktop:right-28 z-30 p-1 rounded-md bg-gray-200 transition-colors duration-500"
-            onClick={() => closeModal()}
-          >
-            <icons.close className="size-12 hover:text-red-500" />
-          </button>
-          <WoeksDetailPage id={worksId} />
+          <main className="relative mobile:mt-56 w-full flex flex-col justify-start items-center z-[70]">
+            <button
+              type="button"
+              className=" self-end mr-20 desktop:mr-36 desktop:mt-28 z-[80] p-1 rounded-md bg-gray-200 transition-colors duration-500"
+              onClick={() => closeModal()}
+            >
+              <icons.close className="size-12 hover:text-red-500" />
+            </button>
+            <WoeksDetailPage id={worksId} />
+          </main>
         </div>
       </>
     );
