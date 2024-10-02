@@ -27,12 +27,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen bg-fixed `}
+        style={{ backgroundImage: "url(/white_back.jpg)" }}
       >
-        <main
-          className="fixed top-0 left-0 w-full h-screen bg-fixed -z-10"
-          style={{ backgroundImage: "url(/white_back.jpg)" }}
-        ></main>
         <Header />
         {children}
       </body>
