@@ -11,7 +11,7 @@ const Aboutme = () => {
       <div className="w-11/12 sm:w-3/4 2xl:w-3/5 flex justify-end">
         {" "}
         <Link
-          href="/AboutMe"
+          href="/Profile"
           className="p-2 sm:text-2xl text-xl text-black font-oswald rounded-lg hover:bg-blue-300 trantition duration-500"
         >
           Read more
