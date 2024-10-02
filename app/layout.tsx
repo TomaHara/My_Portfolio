@@ -27,8 +27,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen bg-fixed `}
-        style={{ backgroundImage: "url(/white_back.jpg)" }}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased before:w-full before:h-screen before:fixed before:block before:top-0 before:left-0 before:-z-10 before:bg-[url("/white_back.jpg")] before:bg-cover before:bg-center before:bg-no-repeat `}
       >
         <Header />
         {children}
