@@ -7,10 +7,7 @@ import Works from "./Works";
 const Home = () => {
   return (
     <Fragment>
-      <main
-        className="w-full  relative flex flex-col items-center justify-start bg-fixed"
-        style={{ backgroundImage: "url(/white_back.jpg)" }}
-      >
+      <main className="w-full  relative flex flex-col items-center justify-start overflow-y-auto">
         <WelcomePage />
         <ProfilePage />
         <Works />
