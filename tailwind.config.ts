@@ -15,6 +15,8 @@ const config: Config = {
           "slide-out-bck-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both",
         "slide-in-bck-left":
           "slide-in-bck-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
+        "slide-out-fwd-center": "slide-out-fwd-center 1.5s ease-in-out both",
+        "slide-in-fwd-center": "slide-in-fwd-center 1.5s ease-in-out both",
       },
       keyframes: {
         "slide-in-bck-right": {
@@ -44,6 +46,22 @@ const config: Config = {
           },
           to: {
             transform: "translateZ(0) translateX(0)",
+            opacity: "1",
+          },
+        },
+        "slide-out-fwd-center": {
+          "0%": {
+            opacity: "1",
+          },
+          to: {
+            opacity: "0",
+          },
+        },
+        "slide-in-fwd-center": {
+          "0%": {
+            opacity: "0",
+          },
+          to: {
             opacity: "1",
           },
         },

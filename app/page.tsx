@@ -1,19 +1,19 @@
 // import Image from "next/image";
 import { Fragment } from "react";
-import WelcomePage from "./components/pages/WelcomePage";
-import ProfilePage from "./components/pages/ProfilePage";
-import WorksPage from "./components/pages/WorksPage";
+import WelcomePage from "./Welcome";
+import ProfilePage from "./Aboutme";
+import Works from "./Works";
 
 const Home = () => {
   return (
     <Fragment>
       <main
-        className="w-full h-screen mobile:h-svh overflow-y-auto relative flex flex-col items-center justify-start bg-fixed"
+        className="w-full sm:h-screen h-svh overflow-y-auto relative flex flex-col items-center justify-start bg-fixed"
         style={{ backgroundImage: "url(/white_back.jpg)" }}
       >
         <WelcomePage />
         <ProfilePage />
-        <WorksPage />
+        <Works />
       </main>
     </Fragment>
   );
