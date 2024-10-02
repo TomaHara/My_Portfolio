@@ -3,7 +3,7 @@ import Profile from "./Profile";
 
 const Aboutme = () => {
   return (
-    <section className="w-full h-svh shrink-0 sm:h-screen overflow-hidden flex flex-col items-center justify-center p-8 gap-8">
+    <section className="w-full min-h-svh sm:min-h-screen flex flex-col items-center justify-center p-8 gap-8">
       <h1 className="sm:text-5xl text-4xl font-oswald text-center text-black [text-decoration:underline] [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
         About me
       </h1>
