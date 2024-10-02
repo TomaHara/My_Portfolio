@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <main
-          className="fixed w-full h-svh sm:h-screen bg-fixed -z-10"
+          className="fixed w-full h-screen bg-fixed -z-10"
           style={{ backgroundImage: "url(/white_back.jpg)" }}
         ></main>
         <Header />
